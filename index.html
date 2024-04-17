@@ -1,0 +1,323 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Predstavljanje</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.css"
+    />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.js"></script>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <style>
+      @media (max-width: 767.98px) {
+        #videoPlayer {
+          width: 100%;
+          height: auto;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <!-- Navbar kako bi lakše mogli pristupiti stranicama -->
+
+    <nav class="navbar navbar-expand-md navbar-dark bg-dark sticky-top">
+      <div class="container-fluid">
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-md-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#"
+                >Ivan Berlančić</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Dragan Brajković</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Glavna slika i informacije -->
+
+    <div class="container mt-5">
+      <div class="row">
+        <div
+          class="col-md-6 d-flex justify-content-center align-items-end text-center"
+        >
+          <a data-fancybox="gallery" href="slike\high_res.jpg"
+            ><img
+              src="slike\low_res.jpg"
+              class="img-fluid"
+              alt="Your Picture"
+              style="max-width: 100%; max-height: 100%"
+          /></a>
+        </div>
+        <div class="col-md-6">
+          <br />
+          <h2>Ivan Berlančić</h2>
+          <p>Student 3. godine stručnog studija računarstva, FERIT</p>
+
+          <ul class="list-unstyled">
+            <li><strong>Datum rođenja:</strong> 3. 11. 2002.</li>
+            <li>
+              <strong>Mjesto rođenja:</strong>
+              <a href="https://hr.wikipedia.org/wiki/Pakrac">Pakrac</a>
+            </li>
+            <li>
+              <strong>Mjesto stanovanja:</strong>
+              <a href="https://hr.wikipedia.org/wiki/Osijek">Osijek</a>
+            </li>
+            <li><strong>Spol:</strong> Muški</li>
+            <li>
+              <strong>Hobi:</strong>
+              <a href="https://gnkdinamo.hr/">Nogomet</a>,
+              <a href="https://www.coolinarika.com/">kuhanje</a>,
+              <a href="https://hr.wikipedia.org/wiki/Potjera_(kviz)">kvizovi</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class="row">
+        <div
+          class="col-md-6 mt-5"
+          style="background-color: #f0f0f0; padding: 20px"
+        >
+          <!-- Podaci o obrazovanju, slike -->
+
+          <h3>Obrazovanje</h3>
+          <ul>
+            <li>
+              <a href="http://os-brace-radica-pakrac.skole.hr/"
+                >Osnovna škola Pakrac</a
+              >
+            </li>
+            <li>
+              <a href="https://www.sspakrac.hr/">Srednja škola Pakrac</a>, smjer
+              Gimnazija
+            </li>
+            <li>
+              <a href="https://www.ferit.unios.hr/">FERIT</a>, smjer stručni
+              računarstvo
+            </li>
+          </ul>
+        </div>
+        <div
+          class="col-md-3 mt-5"
+          style="background-color: #f0f0f0; padding: 20px"
+        >
+          <a data-fancybox="gallery" href="slike\srednja_škola.bmp">
+            <img
+              src="slike\srednja_škola.bmp"
+              alt=""
+              style="max-width: 100%; height: auto"
+          /></a>
+        </div>
+        <div
+          class="col-md-3 mt-5"
+          style="background-color: #f0f0f0; padding: 20px"
+        >
+          <a data-fancybox="gallery" href="slike\ferit.png">
+            <img
+              src="slike\ferit.png"
+              alt=""
+              style="max-width: 100%; height: auto"
+          /></a>
+        </div>
+      </div>
+      <div class="row">
+        <div
+          class="col-md-3 mt-5 d-flex justify-content-center align-items-center"
+          style="background-color: #f0f0f0; padding: 20px"
+        >
+          <a data-fancybox="gallery" href="slike\html.gif">
+            <img
+              src="slike\html.gif"
+              alt=""
+              style="max-width: 100%; height: auto"
+          /></a>
+        </div>
+        <div
+          class="col-md-3 mt-5 d-flex justify-content-center align-items-center"
+          style="background-color: #f0f0f0; padding: 20px"
+        >
+          <a data-fancybox="gallery" href="slike\brojilo.jpg">
+            <img
+              src="slike\brojilo.jpg"
+              alt=""
+              style="max-width: 75%; height: auto"
+            />
+          </a>
+        </div>
+        <div
+          class="col-md-6 mt-5"
+          style="background-color: #f0f0f0; padding: 20px"
+        >
+          <!-- Znanja i vještine -->
+
+          <h3>Znanja i vještine</h3>
+          <h5>Programski jezici</h5>
+          <ul>
+            <li>C</li>
+            <li>Java</li>
+            <li>Python</li>
+            <li>HTML, JavaScript, PHP</li>
+            <li>Kotlin</li>
+          </ul>
+          <h5>
+            <a href="https://github.com/Ivan-Berlancic">Projekti</a> na kojima
+            sam radio
+          </h5>
+          <ul>
+            <li>Nogometni kviz u C-u</li>
+            <li>Prepoznavanje znamenaka na brojilu plina, PSU</li>
+            <li>Web aplikacija za OPG, Web programiranje</li>
+            <li>Web aplikacija za ocjenjivanje filmova, Django</li>
+          </ul>
+          <h5>Strani jezici</h5>
+          <ul>
+            <li>vrlo dobro poznavanje engleskog jezika</li>
+            <li>osnovno poznavanje njemačkog jezika</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <!-- Bootstrap accordion za dodatne informacije -->
+
+    <div class="container mt-5">
+      <div class="accordion" id="accordionExample">
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="headingOne">
+            <button
+              class="accordion-button"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#collapseOne"
+              aria-expanded="true"
+              aria-controls="collapseOne"
+            >
+              Tehnologije koje me zanimaju
+            </button>
+          </h2>
+          <div
+            id="collapseOne"
+            class="accordion-collapse collapse show"
+            aria-labelledby="headingOne"
+            data-bs-parent="#accordionExample"
+          >
+            <div class="accordion-body">
+              Na trećoj godini studija sam se prvi put susreo s web
+              programiranjem te me ono vrlo zaintrigiralo. Zbog toga sam odlučio
+              za završni rad napraviti web aplikaciju, koja će služiti za odabir
+              recepata. Za ostvarenje ove ideje koristit ću React, za koji
+              smatram da će mi biti potreban u mojoj karijeri.
+            </div>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="headingTwo">
+            <button
+              class="accordion-button collapsed"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#collapseTwo"
+              aria-expanded="false"
+              aria-controls="collapseTwo"
+            >
+              Nešto više o mojim hobijima
+            </button>
+          </h2>
+          <div
+            id="collapseTwo"
+            class="accordion-collapse collapse"
+            aria-labelledby="headingTwo"
+            data-bs-parent="#accordionExample"
+          >
+            <div class="accordion-body">
+              Kao što sam spomenuo, za završni rad izrađujem aplikaciju koja je
+              povezana s jednim od mojih hobija, a to je kuhanje. Ovaj hobi me
+              prati od malih nogu te sada imam priliku iskoristiti svoje znanje
+              kako bih kreirao nešto korisno, što ću moći koristiti kasnije u
+              životu. Što se tiče nogometa, volim ga i igrati i gledati. Kvizove
+              sam počeo pratiti nedavno, najviše Potjeru i Milijunaša. Kada
+              stignem, volim otići na pub kviz u mojem rodnom gradu.
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Audio - predstavljanje -->
+
+    <div class="container mt-5 text-center">
+      <h4>Kratko predstavljanje</h4>
+      <br />
+      <audio controls>
+        <source src="mp3kratko.mp3" type="audio/mpeg" />
+        Your browser does not support the audio element.
+      </audio>
+    </div>
+
+    <!-- Videozapis - srednja škola -->
+
+    <div class="container mt-5 text-center">
+      <h4>Videozapis o srednjoj školi</h4>
+      <br />
+      <video
+        controls
+        id="videoPlayer"
+        class="d-block mx-auto"
+        width="768"
+        height="432"
+      >
+        <source src="O našoj školi.mp4" type="video/mp4" />
+        Your browser does not support the video tag.
+      </video>
+    </div>
+
+    <!-- Linkovi za stranice ostalih studenata -->
+
+    <div class="container mt-5 d-flex justify-content-center">
+      <h5>Posjetite:</h5>
+      <ul>
+        <li><a href="">Luka Aračić</a></li>
+        <li><a href="">Petar Ruškan</a></li>
+      </ul>
+    </div>
+
+    <!-- Footer -->
+
+    <footer class="footer mt-5 bg-dark text-white py-4">
+      <div class="container text-center">
+        <p>
+          &copy; Web stranica je izrađena za vrijeme pohađanja Fakulteta
+          elektrotehnike, računarstva i informacijskih tehnologija u Osijeku
+          <a href="https://www.ferit.unios.hr/">FERIT</a> u sklopu kolegija
+          <a href="https://moodle.srce.hr/2023-2024/course/view.php?id=163509"
+            >Multimedijska tehnika</a
+          >
+        </p>
+      </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>
